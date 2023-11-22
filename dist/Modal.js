@@ -8,11 +8,12 @@ var _react = _interopRequireDefault(require("react"));
 require("./Modal.css");
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const Modal = _ref => {
+function Modal(_ref) {
   let {
     open,
     onClose
   } = _ref;
+  console.log("hello");
   if (!open) return null;
   return /*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
     className: "modal",
@@ -29,5 +30,6 @@ const Modal = _ref => {
       })]
     })]
   });
-};
+}
+;
 var _default = exports.default = Modal;

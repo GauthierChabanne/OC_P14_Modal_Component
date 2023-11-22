@@ -35,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "oc_14_modal_gauthier_v2": "github:GauthierChabanne/OC_P14_Modal_Component"
   }
 }

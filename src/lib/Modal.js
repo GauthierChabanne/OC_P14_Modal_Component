@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Modal.css";
 
-const Modal = ({ open, onClose }) => {
+function Modal({ open, onClose }){
+  console.log("hello")
   if (!open) return null;
   return (
     <div className="modal">
