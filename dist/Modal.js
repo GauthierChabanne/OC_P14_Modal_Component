@@ -5,21 +5,27 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 require("./Modal.css");
+var _jsxRuntime = require("react/jsx-runtime");
 const Modal = _ref => {
   let {
     open,
     onClose
   } = _ref;
   if (!open) return null;
-  return /*#__PURE__*/React.createElement("div", {
-    className: "modal"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "overlay"
-  }), /*#__PURE__*/React.createElement("div", {
-    className: "modal-content"
-  }, /*#__PURE__*/React.createElement("h2", null, "Employee Created !"), /*#__PURE__*/React.createElement("button", {
-    onClick: onClose,
-    className: "close-modal"
-  }, "Close")));
+  return /*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
+    className: "modal",
+    children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
+      className: "overlay"
+    }), /*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
+      className: "modal-content",
+      children: [/*#__PURE__*/(0, _jsxRuntime.jsx)("h2", {
+        children: "Employee Created !"
+      }), /*#__PURE__*/(0, _jsxRuntime.jsx)("button", {
+        onClick: onClose,
+        className: "close-modal",
+        children: "Close"
+      })]
+    })]
+  });
 };
 var _default = exports.default = Modal;
