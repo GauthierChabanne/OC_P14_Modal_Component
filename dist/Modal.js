@@ -11,7 +11,7 @@ function Modal(_ref) {
     open,
     onClose
   } = _ref;
-  console.log("hello");
+  console.log("hello how u doing");
   if (!open) return null;
   return /*#__PURE__*/(0, _jsxRuntime.jsxs)("div", {
     className: "modal",

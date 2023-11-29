@@ -1,7 +1,7 @@
 import "./Modal.css";
 
 function Modal({ open, onClose }){
-  console.log("hello")
+  console.log("hello how u doing")
   if (!open) return null;
   return (
     <div className="modal">
