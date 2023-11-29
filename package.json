@@ -1,5 +1,5 @@
 {
-  "name": "oc_14_modal_gauthier_v2",
+  "name": "oc_14_modal_gauthier",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
