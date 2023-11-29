@@ -1,5 +1,5 @@
 {
-  "name": "oc_14_modal_gauthier",
+  "name": "oc-modal-gauthier",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -37,6 +37,6 @@
     ]
   },
   "publishConfig": {
-  "@GauthierChabanne:registry": "https://npm.pkg.github.com"
-}
+    "@GauthierChabanne:registry": "https://npm.pkg.github.com"
+  }
 }
