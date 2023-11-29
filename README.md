@@ -1,5 +1,5 @@
-# oc_14_modal_gauthier_v2
+# oc_14_modal_gauthier
 
 This module allow you to use a modal react component to create a modal with a custom text into it
 
-## InstallationRun the following command:`npm install git@github.com:GauthierChabanne/OC_P14_Modal_Component.git`
+## InstallationRun the following command:`npm install oc_14_modal_gauthier`
